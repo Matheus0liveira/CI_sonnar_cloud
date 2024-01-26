@@ -1,6 +1,6 @@
 name: CI-SonnarCloud
 
-on: ["push"]
+on: ["pull_request"]
 
 jobs:
   run-ci:
